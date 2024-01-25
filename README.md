@@ -1,6 +1,6 @@
 "# 44643Sec3Team7Spring2024FinalProject" 
 <pre>
-   Team Members                   Roles & Responsibilites
+   Team Members                   Roles & Responsibilities
    
 1.Rachana sri Mandadi               Front end developer
 
