@@ -1,5 +1,5 @@
 "# 44643Sec3Team7Spring2024FinalProject" 
-
+<pre>
    Team Members                   Roles & Responsibilites
    
 1.Rachana sri Mandadi               Front end developer
@@ -9,3 +9,4 @@
 3.Sai Priya Jetti                   Back end developer
 
 4.Dhruvitha Challa                  System integrator
+</pre>
