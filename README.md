@@ -1,4 +1,4 @@
-"# 44643Sec3Team7Spring2024FinalProject" 
+"# 44643Sec3Team6Spring2024FinalProject" 
 <pre>
    Team Members                   Roles & Responsibilities
    
