@@ -48,6 +48,24 @@
                                     <constraint firstItem="1ky-eo-jUt" firstAttribute="width" secondItem="aSb-bt-9xa" secondAttribute="width" id="W4J-Jd-VpG"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="144" translatesAutoresizingMaskIntoConstraints="NO" id="OHQ-8l-dya">
+                                <rect key="frame" x="65" y="329" width="263.66666666666669" height="55"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1V-k7-O7i">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="55"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="🏦">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bank" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHL-MC-M8D">
+                                        <rect key="frame" x="205" y="0.0" width="58.666666666666686" height="55"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
