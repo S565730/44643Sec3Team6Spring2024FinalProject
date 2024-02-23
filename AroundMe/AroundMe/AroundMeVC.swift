@@ -9,11 +9,7 @@ import UIKit
 
 class AroundMeVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    
     
     @IBOutlet weak var ContentView: UIView!
     
@@ -36,6 +32,14 @@ class AroundMeVC: UIViewController {
     @IBOutlet weak var MovieBTN: UIButton!
     
     @IBOutlet weak var ShoppingBTN: UIButton!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+    
     /*
      @IBOutlet weak var GasStationBTN: UIButton!
      // MARK: - Navigation

@@ -83,7 +83,6 @@
 		F612EB642B85171800C55EAB = {
 			isa = PBXGroup;
 			children = (
-				D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */,
 				F612EB6F2B85171800C55EAB /* AroundMe */,
 				F612EB862B85171900C55EAB /* AroundMeTests */,
 				F612EB902B85171900C55EAB /* AroundMeUITests */,
@@ -108,6 +107,7 @@
 				F612EB722B85171800C55EAB /* SceneDelegate.swift */,
 				F612EB742B85171800C55EAB /* ViewController.swift */,
 				F612EB762B85171800C55EAB /* Main.storyboard */,
+				D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */,
 				F612EB792B85171900C55EAB /* Assets.xcassets */,
 				F612EB7B2B85171900C55EAB /* LaunchScreen.storyboard */,
 				F612EB7E2B85171900C55EAB /* Info.plist */,
