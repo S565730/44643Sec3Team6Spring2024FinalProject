@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3EB67582B888CB50050127F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D3EB67572B888CB50050127F /* Lottie */; };
+		D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */; };
 		F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612EB702B85171800C55EAB /* AppDelegate.swift */; };
 		F612EB732B85171800C55EAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612EB722B85171800C55EAB /* SceneDelegate.swift */; };
 		F612EB752B85171800C55EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612EB742B85171800C55EAB /* ViewController.swift */; };
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundMeVC.swift; sourceTree = "<group>"; };
 		F612EB6D2B85171800C55EAB /* AroundMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F612EB702B85171800C55EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F612EB722B85171800C55EAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3EB67582B888CB50050127F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +83,7 @@
 		F612EB642B85171800C55EAB = {
 			isa = PBXGroup;
 			children = (
+				D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */,
 				F612EB6F2B85171800C55EAB /* AroundMe */,
 				F612EB862B85171900C55EAB /* AroundMeTests */,
 				F612EB902B85171900C55EAB /* AroundMeUITests */,
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = AroundMe;
+			packageProductDependencies = (
+				D3EB67572B888CB50050127F /* Lottie */,
+			);
 			productName = AroundMe;
 			productReference = F612EB6D2B85171800C55EAB /* AroundMe.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,9 @@
 				Base,
 			);
 			mainGroup = F612EB642B85171800C55EAB;
+			packageReferences = (
+				D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = F612EB6E2B85171800C55EAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -261,6 +272,7 @@
 				F612EB752B85171800C55EAB /* ViewController.swift in Sources */,
 				F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */,
 				F612EB732B85171800C55EAB /* SceneDelegate.swift in Sources */,
+				D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +613,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3EB67572B888CB50050127F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F612EB652B85171800C55EAB /* Project object */;
 }
