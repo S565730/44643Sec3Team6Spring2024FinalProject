@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF84B2B52B9A8115003434F4 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84B2B42B9A8115003434F4 /* PlaceView.swift */; };
 		D3EB67582B888CB50050127F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D3EB67572B888CB50050127F /* Lottie */; };
 		D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */; };
 		F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612EB702B85171800C55EAB /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF84B2B42B9A8115003434F4 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 		D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundMeVC.swift; sourceTree = "<group>"; };
 		F612EB6D2B85171800C55EAB /* AroundMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F612EB702B85171800C55EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				F612EB722B85171800C55EAB /* SceneDelegate.swift */,
 				F612EB742B85171800C55EAB /* ViewController.swift */,
 				F612EB762B85171800C55EAB /* Main.storyboard */,
+				BF84B2B42B9A8115003434F4 /* PlaceView.swift */,
 				D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */,
 				F612EB792B85171900C55EAB /* Assets.xcassets */,
 				F612EB7B2B85171900C55EAB /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 			files = (
 				F612EB752B85171800C55EAB /* ViewController.swift in Sources */,
 				F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */,
+				BF84B2B52B9A8115003434F4 /* PlaceView.swift in Sources */,
 				F612EB732B85171800C55EAB /* SceneDelegate.swift in Sources */,
 				D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */,
 			);
