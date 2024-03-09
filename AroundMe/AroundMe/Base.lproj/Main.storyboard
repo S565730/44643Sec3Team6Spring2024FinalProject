@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home Page-->
         <scene sceneID="ma4-vt-aip">
             <objects>
-                <viewController id="Tr3-gh-ZVj" sceneMemberID="viewController">
+                <viewController id="Tr3-gh-ZVj" customClass="HomePage" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="85L-2w-MoX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,6 +40,9 @@
                                         <rect key="frame" x="0.0" y="608.66666666666663" width="373" height="34.333333333333371"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Go!"/>
+                                        <connections>
+                                            <action selector="GoBTN:" destination="Tr3-gh-ZVj" eventType="touchUpInside" id="Rex-Qe-Fe8"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -54,6 +57,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jQy-J5-uwL"/>
+                    <connections>
+                        <outlet property="GoTF" destination="eDV-xg-X92" id="lUp-LR-hyI"/>
+                        <outlet property="PasswordTF" destination="cYy-LB-dQl" id="k7g-yh-VkE"/>
+                        <outlet property="UserNameTF" destination="r4N-WQ-YIo" id="vn8-Zl-Zjp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="exa-tS-356" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
