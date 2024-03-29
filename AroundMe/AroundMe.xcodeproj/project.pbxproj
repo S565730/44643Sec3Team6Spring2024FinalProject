@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ECD14CE2BB663980080C0FD /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 5ECD14CD2BB663980080C0FD /* Eureka */; };
 		BF84B2B52B9A8115003434F4 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84B2B42B9A8115003434F4 /* PlaceView.swift */; };
 		BFC6DF212BB66138000E6342 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DF202BB66138000E6342 /* PlaceViewController.swift */; };
 		BFC6DF232BB6615B000E6342 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DF222BB6615B000E6342 /* MapViewController.swift */; };
@@ -68,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3EB67582B888CB50050127F /* Lottie in Frameworks */,
+				5ECD14CE2BB663980080C0FD /* Eureka in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +164,7 @@
 			name = AroundMe;
 			packageProductDependencies = (
 				D3EB67572B888CB50050127F /* Lottie */,
+				5ECD14CD2BB663980080C0FD /* Eureka */,
 			);
 			productName = AroundMe;
 			productReference = F612EB6D2B85171800C55EAB /* AroundMe.app */;
@@ -237,6 +240,7 @@
 			mainGroup = F612EB642B85171800C55EAB;
 			packageReferences = (
 				D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */,
 			);
 			productRefGroup = F612EB6E2B85171800C55EAB /* Products */;
 			projectDirPath = "";
@@ -631,6 +635,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 		D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -642,6 +654,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5ECD14CD2BB663980080C0FD /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
 		D3EB67572B888CB50050127F /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */;
