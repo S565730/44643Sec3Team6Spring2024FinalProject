@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BF84B2B52B9A8115003434F4 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84B2B42B9A8115003434F4 /* PlaceView.swift */; };
+		BFC6DF212BB66138000E6342 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DF202BB66138000E6342 /* PlaceViewController.swift */; };
+		BFC6DF232BB6615B000E6342 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DF222BB6615B000E6342 /* MapViewController.swift */; };
 		D3C04CAE2B9BE9B70039594B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C04CAD2B9BE9B70039594B /* HomePage.swift */; };
 		D3EB67582B888CB50050127F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D3EB67572B888CB50050127F /* Lottie */; };
 		D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		BF84B2B42B9A8115003434F4 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		BFC6DF202BB66138000E6342 /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
+		BFC6DF222BB6615B000E6342 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		D3C04CAD2B9BE9B70039594B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundMeVC.swift; sourceTree = "<group>"; };
 		F612EB6D2B85171800C55EAB /* AroundMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +116,9 @@
 				F612EB742B85171800C55EAB /* ViewController.swift */,
 				F612EB762B85171800C55EAB /* Main.storyboard */,
 				D3C04CAD2B9BE9B70039594B /* HomePage.swift */,
+				BFC6DF202BB66138000E6342 /* PlaceViewController.swift */,
 				BF84B2B42B9A8115003434F4 /* PlaceView.swift */,
+				BFC6DF222BB6615B000E6342 /* MapViewController.swift */,
 				D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */,
 				F612EB792B85171900C55EAB /* Assets.xcassets */,
 				F612EB7B2B85171900C55EAB /* LaunchScreen.storyboard */,
@@ -278,9 +284,11 @@
 				F612EB752B85171800C55EAB /* ViewController.swift in Sources */,
 				D3C04CAE2B9BE9B70039594B /* HomePage.swift in Sources */,
 				F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */,
+				BFC6DF212BB66138000E6342 /* PlaceViewController.swift in Sources */,
 				BF84B2B52B9A8115003434F4 /* PlaceView.swift in Sources */,
 				F612EB732B85171800C55EAB /* SceneDelegate.swift in Sources */,
 				D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */,
+				BFC6DF232BB6615B000E6342 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
