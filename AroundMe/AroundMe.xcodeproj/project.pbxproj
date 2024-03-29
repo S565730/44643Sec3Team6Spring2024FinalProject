@@ -241,6 +241,7 @@
 			packageReferences = (
 				D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */,
+				5E2530C32BB764D800BB0A38 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = F612EB6E2B85171800C55EAB /* Products */;
 			projectDirPath = "";
@@ -635,6 +636,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		5E2530C32BB764D800BB0A38 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
 		5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
