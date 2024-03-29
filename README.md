@@ -23,3 +23,8 @@ Views of an inserted image
 Place View controller labels were added, and limitations were added for Place VC.
 Functionality was added to the map view by importing the Lottie package.
 Place View Controller implemented; picture added to launchscreen image
+
+Additionally, we added the screens, linked them to the transitions, implemented the code for the transitions, and added the project-related packages.
+Identifiers were named and the transition from the login view to the view controllers was created.
+Additional functionality
+incorporated the relevant models
