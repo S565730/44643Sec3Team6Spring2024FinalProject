@@ -13,8 +13,8 @@
 
 We have added  buttons and labels to perform tasks for establishments.
 Created outlets for the buttons and labels.
-Added assets in sprint 03
-Now in Sprint 04Using a Google Map API key, the map view controller was added , along with the ability to capture store locations using the map view and place view controller capabilities. The main view image was also put into the launchscreen story board.
+Added assets in sprint 04
+Now in Sprint 05 using a Google Map API key, the map view controller was added , along with the ability to capture store locations using the map view and place view controller capabilities. The main view image was also put into the launchscreen story board.
 
 Added a login page and a navigation controller to the Home View Controller
 outlets for username and password were created. text areas
