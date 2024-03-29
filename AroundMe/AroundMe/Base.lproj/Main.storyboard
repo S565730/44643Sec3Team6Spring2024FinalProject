@@ -229,7 +229,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="27" translatesAutoresizingMaskIntoConstraints="NO" id="cso-Hi-1hg" userLabel="Table view ">
                                         <rect key="frame" x="161.66666666666666" y="611.33333333333337" width="50" height="31.666666666666629"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cso-Hi-1hg" id="mfE-FV-3kq">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="31.666666030883789"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="31.666666666666629"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
