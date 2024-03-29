@@ -399,6 +399,9 @@
                         <viewLayoutGuide key="safeArea" id="kGR-ML-ppi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="RcU-uL-RhG" kind="show" identifier="Connection" id="4k4-YY-9qG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Url-mn-B5y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -409,7 +412,7 @@
             <objects>
                 <viewController id="RcU-uL-RhG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EnF-gx-2Rc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2cC-lw-36O">
@@ -420,17 +423,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FWp-Bc-wfg">
-                                <rect key="frame" x="76" y="362" width="240" height="128"/>
+                                <rect key="frame" x="76" y="196" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6OS-v7-1XG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Yh3-YQ-bpZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jl1-Of-Fx0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2190" y="-431"/>
+            <point key="canvasLocation" x="2369" y="-437"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OHe-vU-BVH">
