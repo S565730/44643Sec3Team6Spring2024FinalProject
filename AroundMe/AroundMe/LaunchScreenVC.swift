@@ -2,7 +2,7 @@
 //  LaunchScreenVC.swift
 //  AroundMe
 //
-//  Created by rachana on 4/12/24.
+//  Created by rachana on 3/12/24.
 //
 
 import UIKit
@@ -11,9 +11,18 @@ class LaunchScreenVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        imgView.layer.cornerRadius = 12
+        imgView.clipsToBounds = true
+        
+        // Do any additional setup after loading the view.
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            
+            self.performSegue(withIdentifier: "launchToCategories", sender: self)
+        }
         // Do any additional setup after loading the view.
     }
+    @IBOutlet weak var imgView: UIImageView!
     
 
     /*

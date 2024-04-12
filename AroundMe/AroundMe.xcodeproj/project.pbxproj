@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ECD14CE2BB663980080C0FD /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 5ECD14CD2BB663980080C0FD /* Eureka */; };
 		BF84B2B52B9A8115003434F4 /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF84B2B42B9A8115003434F4 /* PlaceView.swift */; };
-		BFC6DF212BB66138000E6342 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DF202BB66138000E6342 /* PlaceViewController.swift */; };
-		BFC6DF232BB6615B000E6342 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6DF222BB6615B000E6342 /* MapViewController.swift */; };
-		D3C04CAE2B9BE9B70039594B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C04CAD2B9BE9B70039594B /* HomePage.swift */; };
-		D3EB67582B888CB50050127F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D3EB67572B888CB50050127F /* Lottie */; };
+		BFD4A2CA2BC9035700A0AB49 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD4A2C92BC9035700A0AB49 /* LaunchScreenVC.swift */; };
+		BFD4A2CD2BC9052700A0AB49 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = BFD4A2CC2BC9052700A0AB49 /* SDWebImage */; };
+		BFD4A2CF2BC9052700A0AB49 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BFD4A2CE2BC9052700A0AB49 /* SDWebImageMapKit */; };
 		D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */; };
-		E887AA7F2BC8F0C3000505C4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = E887AA7E2BC8F0C3000505C4 /* SDWebImage */; };
-		E887AA812BC8F0C3000505C4 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E887AA802BC8F0C3000505C4 /* SDWebImageMapKit */; };
 		F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612EB702B85171800C55EAB /* AppDelegate.swift */; };
 		F612EB732B85171800C55EAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612EB722B85171800C55EAB /* SceneDelegate.swift */; };
 		F612EB752B85171800C55EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F612EB742B85171800C55EAB /* ViewController.swift */; };
@@ -46,9 +42,7 @@
 
 /* Begin PBXFileReference section */
 		BF84B2B42B9A8115003434F4 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
-		BFC6DF202BB66138000E6342 /* PlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
-		BFC6DF222BB6615B000E6342 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		D3C04CAD2B9BE9B70039594B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		BFD4A2C92BC9035700A0AB49 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
 		D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundMeVC.swift; sourceTree = "<group>"; };
 		F612EB6D2B85171800C55EAB /* AroundMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F612EB702B85171800C55EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,10 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E887AA7F2BC8F0C3000505C4 /* SDWebImage in Frameworks */,
-				D3EB67582B888CB50050127F /* Lottie in Frameworks */,
-				E887AA812BC8F0C3000505C4 /* SDWebImageMapKit in Frameworks */,
-				5ECD14CE2BB663980080C0FD /* Eureka in Frameworks */,
+				BFD4A2CF2BC9052700A0AB49 /* SDWebImageMapKit in Frameworks */,
+				BFD4A2CD2BC9052700A0AB49 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,10 +113,8 @@
 				F612EB722B85171800C55EAB /* SceneDelegate.swift */,
 				F612EB742B85171800C55EAB /* ViewController.swift */,
 				F612EB762B85171800C55EAB /* Main.storyboard */,
-				D3C04CAD2B9BE9B70039594B /* HomePage.swift */,
-				BFC6DF202BB66138000E6342 /* PlaceViewController.swift */,
+				BFD4A2C92BC9035700A0AB49 /* LaunchScreenVC.swift */,
 				BF84B2B42B9A8115003434F4 /* PlaceView.swift */,
-				BFC6DF222BB6615B000E6342 /* MapViewController.swift */,
 				D3FEF9DB2B888641004F9A6B /* AroundMeVC.swift */,
 				F612EB792B85171900C55EAB /* Assets.xcassets */,
 				F612EB7B2B85171900C55EAB /* LaunchScreen.storyboard */,
@@ -167,10 +157,8 @@
 			);
 			name = AroundMe;
 			packageProductDependencies = (
-				D3EB67572B888CB50050127F /* Lottie */,
-				5ECD14CD2BB663980080C0FD /* Eureka */,
-				E887AA7E2BC8F0C3000505C4 /* SDWebImage */,
-				E887AA802BC8F0C3000505C4 /* SDWebImageMapKit */,
+				BFD4A2CC2BC9052700A0AB49 /* SDWebImage */,
+				BFD4A2CE2BC9052700A0AB49 /* SDWebImageMapKit */,
 			);
 			productName = AroundMe;
 			productReference = F612EB6D2B85171800C55EAB /* AroundMe.app */;
@@ -245,10 +233,7 @@
 			);
 			mainGroup = F612EB642B85171800C55EAB;
 			packageReferences = (
-				D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */,
-				5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */,
-				5E2530C32BB764D800BB0A38 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				E887AA7D2BC8F0C3000505C4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				BFD4A2CB2BC9052700A0AB49 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = F612EB6E2B85171800C55EAB /* Products */;
 			projectDirPath = "";
@@ -294,13 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F612EB752B85171800C55EAB /* ViewController.swift in Sources */,
-				D3C04CAE2B9BE9B70039594B /* HomePage.swift in Sources */,
 				F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */,
-				BFC6DF212BB66138000E6342 /* PlaceViewController.swift in Sources */,
+				BFD4A2CA2BC9035700A0AB49 /* LaunchScreenVC.swift in Sources */,
 				BF84B2B52B9A8115003434F4 /* PlaceView.swift in Sources */,
 				F612EB732B85171800C55EAB /* SceneDelegate.swift in Sources */,
 				D3FEF9DC2B888641004F9A6B /* AroundMeVC.swift in Sources */,
-				BFC6DF232BB6615B000E6342 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,31 +626,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5E2530C32BB764D800BB0A38 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.9.0;
-			};
-		};
-		5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.0;
-			};
-		};
-		D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.4.1;
-			};
-		};
-		E887AA7D2BC8F0C3000505C4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+		BFD4A2CB2BC9052700A0AB49 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
 			requirement = {
@@ -678,24 +637,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5ECD14CD2BB663980080C0FD /* Eureka */ = {
+		BFD4A2CC2BC9052700A0AB49 /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5ECD14CC2BB663980080C0FD /* XCRemoteSwiftPackageReference "Eureka" */;
-			productName = Eureka;
-		};
-		D3EB67572B888CB50050127F /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D3EB67562B888CB50050127F /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
-		E887AA7E2BC8F0C3000505C4 /* SDWebImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E887AA7D2BC8F0C3000505C4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = BFD4A2CB2BC9052700A0AB49 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImage;
 		};
-		E887AA802BC8F0C3000505C4 /* SDWebImageMapKit */ = {
+		BFD4A2CE2BC9052700A0AB49 /* SDWebImageMapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E887AA7D2BC8F0C3000505C4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			package = BFD4A2CB2BC9052700A0AB49 /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
