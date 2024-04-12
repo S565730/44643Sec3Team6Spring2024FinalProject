@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EC32BB72BC98AEE00560271 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC32BB62BC98AEE00560271 /* MapViewController.swift */; };
 		7EB62A3B2BC90BA000D6E158 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB62A3A2BC90BA000D6E158 /* PlaceTableViewCell.swift */; };
 		BF933E862BC9888C000C469D /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF933E852BC9888C000C469D /* CategoryModel.swift */; };
 		BF933E882BC988CD000C469D /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF933E872BC988CD000C469D /* CategoryTableViewCell.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EC32BB62BC98AEE00560271 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7EB62A3A2BC90BA000D6E158 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		BF933E852BC9888C000C469D /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		BF933E872BC988CD000C469D /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				F612EB722B85171800C55EAB /* SceneDelegate.swift */,
 				F612EB742B85171800C55EAB /* ViewController.swift */,
 				F612EB762B85171800C55EAB /* Main.storyboard */,
+				5EC32BB62BC98AEE00560271 /* MapViewController.swift */,
 				BF933E892BC9894E000C469D /* CategoriesVC.swift */,
 				BF933E852BC9888C000C469D /* CategoryModel.swift */,
 				7EB62A3A2BC90BA000D6E158 /* PlaceTableViewCell.swift */,
@@ -288,6 +291,7 @@
 				BF933E862BC9888C000C469D /* CategoryModel.swift in Sources */,
 				F612EB712B85171800C55EAB /* AppDelegate.swift in Sources */,
 				BFD4A2CA2BC9035700A0AB49 /* LaunchScreenVC.swift in Sources */,
+				5EC32BB72BC98AEE00560271 /* MapViewController.swift in Sources */,
 				BF933E8A2BC9894E000C469D /* CategoriesVC.swift in Sources */,
 				BF933E882BC988CD000C469D /* CategoryTableViewCell.swift in Sources */,
 				F612EB732B85171800C55EAB /* SceneDelegate.swift in Sources */,
