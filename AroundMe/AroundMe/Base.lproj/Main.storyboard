@@ -118,11 +118,11 @@
             <objects>
                 <viewController storyboardIdentifier="MapViewController" id="mnZ-Rn-xwU" customClass="MapViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WdH-HM-h1k">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="6ot-9h-0dN">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BHP-yZ-8cJ"/>
@@ -134,6 +134,7 @@
                             <constraint firstItem="6ot-9h-0dN" firstAttribute="top" secondItem="BHP-yZ-8cJ" secondAttribute="top" id="fY2-IK-ZvW"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="muL-rU-ajK"/>
                     <connections>
                         <outlet property="MapView" destination="6ot-9h-0dN" id="vvx-uX-niN"/>
                     </connections>
@@ -382,11 +383,12 @@
                     <connections>
                         <outlet property="placesTV" destination="Fu5-5f-CVv" id="lq7-Bd-e9y"/>
                         <outlet property="spinner" destination="oGa-qS-M0c" id="clg-8A-YhT"/>
+                        <segue destination="mnZ-Rn-xwU" kind="show" identifier="placeDetailsSegue" id="WiX-qk-vCE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NV1-Ns-s8R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2369" y="-1437"/>
+            <point key="canvasLocation" x="888" y="-1446"/>
         </scene>
     </scenes>
     <resources>
