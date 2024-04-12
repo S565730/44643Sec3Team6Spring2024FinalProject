@@ -390,7 +390,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
-                                    <action selector="nextBtn:" destination="eR4-7Y-Gi1" eventType="touchUpInside" id="63t-Ak-oCP"/>
+                                    <action selector="nextBtn:" destination="eR4-7Y-Gi1" eventType="touchUpInside" id="QSx-WK-3WC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAl-x6-EX0">
@@ -402,7 +402,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="current-location"/>
                                 <connections>
-                                    <action selector="currentLocation:" destination="eR4-7Y-Gi1" eventType="touchUpInside" id="Hlb-Cq-h4e"/>
+                                    <action selector="currentLocation:" destination="eR4-7Y-Gi1" eventType="touchUpInside" id="SYx-1x-Xuv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -427,8 +427,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Select Location" id="ghj-Sk-naD"/>
                     <connections>
-                        <outlet property="addressLbl" destination="82d-Ro-A5T" id="b9v-C0-nDt"/>
-                        <outlet property="mapView" destination="Cru-Sb-Qon" id="aR2-w1-6CU"/>
+                        <outlet property="addressLbl" destination="82d-Ro-A5T" id="Kbx-Rl-wfU"/>
+                        <outlet property="mapView" destination="Cru-Sb-Qon" id="0vE-8H-8WE"/>
                         <segue destination="PMj-nT-NJL" kind="show" identifier="placeDetailsSegue" id="hmR-Nr-o5f"/>
                     </connections>
                 </viewController>
@@ -446,7 +446,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
