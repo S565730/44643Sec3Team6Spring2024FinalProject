@@ -8,7 +8,7 @@
 import UIKit
 import MapKit
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
-
+    var selectedCategory: CategoryModel?
     override func viewDidLoad() {
         super.viewDidLoad()
 
