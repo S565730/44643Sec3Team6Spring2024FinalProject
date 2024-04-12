@@ -1,13 +1,13 @@
 //
-//  HomePage.swift
+//  LaunchScreenVC.swift
 //  AroundMe
 //
-//  Created by Challa Dhruvitha on 3/8/24.
+//  Created by rachana on 4/12/24.
 //
 
 import UIKit
 
-class HomePage: UIViewController {
+class LaunchScreenVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +16,6 @@ class HomePage: UIViewController {
     }
     
 
-    
-    @IBOutlet weak var UserNameTF: UITextField!
-    
-    @IBAction func GoBTN(_ sender: UIButton) {
-    }
-    
-    @IBOutlet weak var PasswordTF: UITextField!
-    
-    @IBOutlet weak var GoTF: UIButton!
     /*
     // MARK: - Navigation
 
