@@ -86,9 +86,6 @@
                                     <constraint firstAttribute="height" constant="56" id="def-B0-q3t"/>
                                 </constraints>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <outlet property="delegate" destination="sen-0k-dwl" id="hHt-pM-hme"/>
-                                </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="cSS-U7-cYe">
                                 <rect key="frame" x="0.0" y="164" width="393" height="678"/>
@@ -152,8 +149,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="iconLbl" destination="3Ce-r6-mdQ" id="Iel-iv-GAn"/>
-                                            <outlet property="nameLbl" destination="mJG-5p-lvR" id="mJy-Wo-VPc"/>
+                                            <outlet property="iconLbl" destination="3Ce-r6-mdQ" id="562-2A-2RN"/>
+                                            <outlet property="nameLbl" destination="mJG-5p-lvR" id="OXc-vo-TuX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -173,8 +170,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Categories" id="b1f-Nb-yKm"/>
                     <connections>
-                        <outlet property="categoriesTV" destination="cSS-U7-cYe" id="0Ih-UM-fg6"/>
-                        <outlet property="searchBar" destination="coW-xd-adx" id="rJc-Tb-MIH"/>
+                        <outlet property="categoriesTV" destination="cSS-U7-cYe" id="L5D-ct-sEM"/>
+                        <outlet property="searchBar" destination="coW-xd-adx" id="Szh-xW-9bw"/>
                         <segue destination="eR4-7Y-Gi1" kind="show" identifier="categoriesToMaps" id="F2s-dj-2j9"/>
                     </connections>
                 </viewController>
