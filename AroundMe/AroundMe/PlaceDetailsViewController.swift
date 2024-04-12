@@ -8,7 +8,7 @@
 import UIKit
 
 class PlaceDetailsViewController: UIViewController {
-
+    var location: Location?
     override func viewDidLoad() {
         super.viewDidLoad()
 

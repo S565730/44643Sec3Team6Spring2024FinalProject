@@ -308,8 +308,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Places" id="C2c-N6-qgQ"/>
                     <connections>
-                        <outlet property="placesTV" destination="Fu5-5f-CVv" id="lq7-Bd-e9y"/>
-                        <outlet property="spinner" destination="oGa-qS-M0c" id="clg-8A-YhT"/>
+                        <outlet property="placesTV" destination="Fu5-5f-CVv" id="CNL-CW-RdV"/>
+                        <outlet property="spinner" destination="oGa-qS-M0c" id="aFT-Tv-yBf"/>
                         <segue destination="mnZ-Rn-xwU" kind="show" identifier="placeDetailsSegue" id="WiX-qk-vCE"/>
                     </connections>
                 </viewController>
@@ -446,7 +446,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
