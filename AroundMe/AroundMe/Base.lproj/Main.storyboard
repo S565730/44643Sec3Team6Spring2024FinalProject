@@ -42,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="-2760" y="-1465"/>
         </scene>
-        <!--Map View Controller-->
+        <!--Place Details View Controller-->
         <scene sceneID="lTT-JL-HpL">
             <objects>
-                <viewController storyboardIdentifier="MapViewController" id="mnZ-Rn-xwU" customClass="MapViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" id="mnZ-Rn-xwU" customClass="PlaceDetailsViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WdH-HM-h1k">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +66,7 @@
                     <navigationItem key="navigationItem" id="muL-rU-ajK"/>
                     <connections>
                         <outlet property="MapView" destination="6ot-9h-0dN" id="vvx-uX-niN"/>
+                        <outlet property="mapView" destination="6ot-9h-0dN" id="J32-BX-wPz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aap-5b-5Le" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

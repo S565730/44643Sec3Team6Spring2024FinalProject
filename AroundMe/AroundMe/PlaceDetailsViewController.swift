@@ -6,16 +6,31 @@
 //
 
 import UIKit
+import MapKit
 
 class PlaceDetailsViewController: UIViewController {
+    @IBOutlet weak var mapView: MKMapView!
     var location: Location?
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        mapView.showsUserLocation = true
         // Do any additional setup after loading the view.
+        self.showMarkerAndZoom(latitude: location?.lat ?? 0.0, longitude: location?.lng ?? 0.0)
     }
     
+    func showMarkerAndZoom(latitude: Double, longitude: Double) {
+            // Create a CLLocationCoordinate2D instance for the marker
+            let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
 
+            // Create a custom annotation
+            let annotation = CustomAnnotation(coordinate: coordinate)
+            mapView.addAnnotation(annotation)
+
+            // Set region to zoom to
+            let region = MKCoordinateRegion(center: coordinate, latitudinalMeters: 1000, longitudinalMeters: 1000)
+            mapView.setRegion(region, animated: true)
+        }
     /*
     // MARK: - Navigation
 
@@ -26,4 +41,14 @@ class PlaceDetailsViewController: UIViewController {
     }
     */
 
+}
+
+
+// Custom annotation class
+class CustomAnnotation: NSObject, MKAnnotation {
+    let coordinate: CLLocationCoordinate2D
+
+    init(coordinate: CLLocationCoordinate2D) {
+        self.coordinate = coordinate
+    }
 }
