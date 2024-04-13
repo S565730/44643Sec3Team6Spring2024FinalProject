@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class LaunchScreenVC: UIViewController {
 
@@ -19,11 +20,12 @@ class LaunchScreenVC: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             
             self.performSegue(withIdentifier: "launchToCategories", sender: self)
+            AudioServicesPlaySystemSound(1001)
         }
         // Do any additional setup after loading the view.
     }
     @IBOutlet weak var imgView: UIImageView!
-    
+   // var openingSound = SystemSoundID(1104)
 
     /*
     // MARK: - Navigation
