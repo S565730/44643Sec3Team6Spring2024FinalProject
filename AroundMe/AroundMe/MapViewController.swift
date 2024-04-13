@@ -53,10 +53,26 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         }
     }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        <#code#>
+        guard let location = locations.last else {
+            return
+        }
+        
+        
+        myLocation = location
+        
+        // Zoom to user's current location
+        let region = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: 1000, longitudinalMeters: 1000)
+        mapView.setRegion(region, animated: true)
+        
+        locationManager.stopUpdatingLocation()
+        
+        if let centerCoordinate = mapView?.centerCoordinate {
+            let centerLocation = CLLocation(latitude: centerCoordinate.latitude, longitude: centerCoordinate.longitude)
+            getAddressFromLocation(centerLocation)
+        }
     }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: any Error) {
-        <#code#>
+         print("Error: \(error.localizedDescription)")
     }
     
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
