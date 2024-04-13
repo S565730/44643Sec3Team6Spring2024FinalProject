@@ -2,7 +2,7 @@
 //  MapViewController.swift
 //  AroundMe
 //
-//  Created by MAHITHA VUDUTHA on 4/12/24.
+//  Created by Dhruvitha Challa on 4/12/24.
 //
 
 import UIKit
@@ -52,12 +52,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             vc.lng = myLocation.coordinate.longitude
         }
     }
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.last else {
             return
         }
-        
-        
         myLocation = location
         
         // Zoom to user's current location
@@ -71,14 +70,38 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             getAddressFromLocation(centerLocation)
         }
     }
+    
     func locationManager(_ manager: CLLocationManager, didFailWithError error: any Error) {
          print("Error: \(error.localizedDescription)")
     }
     
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
-        
+      
+        let centerCoordinate = mapView.centerCoordinate
+        print("Center Coordinate: \(centerCoordinate.latitude), \(centerCoordinate.longitude)")
+        myLocation = CLLocation(latitude: centerCoordinate.latitude, longitude: centerCoordinate.longitude)
+        getAddressFromLocation(CLLocation(latitude: centerCoordinate.latitude, longitude: centerCoordinate.longitude))
     }
+    
     func getAddressFromLocation(_ location: CLLocation){
+        let geocoder = CLGeocoder()
+        geocoder.reverseGeocodeLocation(location) { (placemarks, error) in
+            if let error = error {
+                print("Reverse geocoding failed with error: \(error.localizedDescription)")
+                return
+            }
+            
+            if let placemark = placemarks?.first {
+                // Construct the address string
+                let address = "\(placemark.name ?? ""), \(placemark.locality ?? ""), \(placemark.administrativeArea ?? "") \(placemark.postalCode ?? ""), \(placemark.country ?? "")"
+                
+                print("Address: \(address)")
+                
+                self.addressLbl.text = address
+            } else {
+                print("No placemark found")
+            }
+        }
         
     }
     
