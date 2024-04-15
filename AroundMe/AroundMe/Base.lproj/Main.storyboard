@@ -13,7 +13,7 @@
         <!--Launch ScreenVC-->
         <scene sceneID="aC3-up-2TM">
             <objects>
-                <viewController id="MGB-Oa-JTz" customClass="LaunchScreenVC" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="MGB-Oa-JTz" customClass="LaunchScreenVC" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FyE-B9-9hE">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,7 @@
         <!--Place Details View Controller-->
         <scene sceneID="lTT-JL-HpL">
             <objects>
-                <viewController storyboardIdentifier="MapViewController" id="mnZ-Rn-xwU" customClass="PlaceDetailsViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" modalPresentationStyle="fullScreen" id="mnZ-Rn-xwU" customClass="PlaceDetailsViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WdH-HM-h1k">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
         <!--Categories-->
         <scene sceneID="g2m-qg-pPb">
             <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="sen-0k-dwl" customClass="CategoriesVC" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="sen-0k-dwl" customClass="CategoriesVC" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2q2-wu-3i2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,11 +183,11 @@
         <!--launchToCategories-->
         <scene sceneID="ljU-6j-1ha">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Jfu-KD-gl6" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Jfu-KD-gl6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="launchToCategories" id="BCu-jz-fcS"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="0Am-2G-f84">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -202,7 +202,7 @@
         <!--Places-->
         <scene sceneID="9ej-P6-EcP">
             <objects>
-                <viewController id="PMj-nT-NJL" customClass="PlacesViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="PMj-nT-NJL" customClass="PlacesViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D2P-QA-Wgi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -321,7 +321,7 @@
         <!--Select Location-->
         <scene sceneID="8QX-1a-zBr">
             <objects>
-                <viewController id="eR4-7Y-Gi1" customClass="MapViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="eR4-7Y-Gi1" customClass="MapViewController" customModule="AroundMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q4l-Im-JXB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -430,7 +430,7 @@
                     <connections>
                         <outlet property="addressLbl" destination="82d-Ro-A5T" id="Kbx-Rl-wfU"/>
                         <outlet property="mapView" destination="Cru-Sb-Qon" id="0vE-8H-8WE"/>
-                        <segue destination="PMj-nT-NJL" kind="show" identifier="placeDetailsSegue" id="hmR-Nr-o5f"/>
+                        <segue destination="PMj-nT-NJL" kind="show" identifier="mapToPlaces" id="hmR-Nr-o5f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p0d-rf-FV1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -447,7 +447,7 @@
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

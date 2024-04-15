@@ -108,17 +108,18 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     @IBAction func currentLocation(_ sender: Any) {
         AudioServicesPlaySystemSound(1104)
-        self.performSegue(withIdentifier: "mapToPlaces", sender: self)
-    }
-    
-    @IBAction func nextBtn(_ sender: Any) {
-        AudioServicesPlaySystemSound(1104)
         if let userLocation = locationManager.location?.coordinate {
             let region = MKCoordinateRegion(center: userLocation, latitudinalMeters: 1000, longitudinalMeters: 1000)
             mapView.setRegion(region, animated: true)
         } else {
             print("Current location not available")
         }
+        
+    }
+    
+    @IBAction func nextBtn(_ sender: Any) {
+        AudioServicesPlaySystemSound(1104)
+        self.performSegue(withIdentifier: "mapToPlaces", sender: self)
         
     }
 }
