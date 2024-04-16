@@ -7,6 +7,7 @@
 
 import UIKit
 import SDWebImage
+import AudioToolbox
 class PlacesViewController: UIViewController {
 
     @IBOutlet weak var spinner: UIActivityIndicatorView!
@@ -64,7 +65,7 @@ class PlacesViewController: UIViewController {
         // Pass the selected object to the new view controller.
         
         if segue.identifier == "placeDetailsSegue" {
-            
+            AudioServicesPlaySystemSound(1305)
             let vc = segue.destination as! PlaceDetailsViewController
             vc.location = selectedPlace?.geometry.location
             vc.navigationItem.title = selectedPlace?.name

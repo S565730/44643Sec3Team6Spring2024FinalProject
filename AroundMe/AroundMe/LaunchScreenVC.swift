@@ -16,11 +16,11 @@ class LaunchScreenVC: UIViewController {
         imgView.clipsToBounds = true
         
         // Do any additional setup after loading the view.
-        
+        AudioServicesPlaySystemSound(1332)
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             
             self.performSegue(withIdentifier: "launchToCategories", sender: self)
-            AudioServicesPlaySystemSound(1001)
+            AudioServicesPlaySystemSound(1303)
         }
         // Do any additional setup after loading the view.
     }

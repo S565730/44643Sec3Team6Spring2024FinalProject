@@ -46,7 +46,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
         if segue.identifier == "mapToPlaces" {
-            
+            AudioServicesPlaySystemSound(1301)
             let vc = segue.destination as! PlacesViewController
             vc.selectedCategory = self.selectedCategory
             vc.lat = myLocation.coordinate.latitude
@@ -107,7 +107,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     }
     
     @IBAction func currentLocation(_ sender: Any) {
-        AudioServicesPlaySystemSound(1104)
+        AudioServicesPlaySystemSound(1111)
         if let userLocation = locationManager.location?.coordinate {
             let region = MKCoordinateRegion(center: userLocation, latitudinalMeters: 1000, longitudinalMeters: 1000)
             mapView.setRegion(region, animated: true)

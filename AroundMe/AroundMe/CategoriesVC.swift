@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import AudioToolbox
 class CategoriesVC: UIViewController {
 
     
@@ -39,7 +39,7 @@ class CategoriesVC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "categoriesToMaps" {
-            
+            AudioServicesPlaySystemSound(1302)
             let vc = segue.destination as! MapViewController
             vc.selectedCategory = self.selectedCategory
         }
