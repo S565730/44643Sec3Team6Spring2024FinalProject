@@ -79,7 +79,7 @@ extension CategoriesVC: UITableViewDelegate, UITableViewDataSource {
 extension CategoriesVC: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
+        AudioServicesPlaySystemSound(1104)
         if searchText == "" {
             
             self.filteredCategories = self.allCategories

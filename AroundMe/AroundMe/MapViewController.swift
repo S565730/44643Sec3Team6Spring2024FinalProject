@@ -118,7 +118,7 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     }
     
     @IBAction func nextBtn(_ sender: Any) {
-        AudioServicesPlaySystemSound(1104)
+        AudioServicesPlaySystemSound(1050)
         self.performSegue(withIdentifier: "mapToPlaces", sender: self)
         
     }
