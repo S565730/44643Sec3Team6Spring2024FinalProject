@@ -19,6 +19,16 @@ class PlaceDetailsViewController: UIViewController {
         self.showMarkerAndZoom(latitude: location?.lat ?? 0.0, longitude: location?.lng ?? 0.0)
     }
     
+    @IBAction func Logout(_ sender: Any) {
+        let alert = UIAlertController(title: "Logout", message: "Would you like to logout?", preferredStyle: .alert)
+                   alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+                   alert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { _ in
+                     
+                       
+                       self.performSegue(withIdentifier: "BackToLogin", sender: self)
+                   }))
+                   present(alert, animated: true, completion: nil)
+    }
     func showMarkerAndZoom(latitude: Double, longitude: Double) {
             // Create a CLLocationCoordinate2D instance for the marker
             let coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)

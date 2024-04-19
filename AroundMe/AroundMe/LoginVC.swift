@@ -1,8 +1,8 @@
 //
 //  LoginVC.swift
-//  S565730ShopcyApp
+//  AroundMe
 //
-//  Created by rachana on 3/25/24.
+//  Created by rachana on 4/17/24.
 //
 
 import UIKit
@@ -37,7 +37,7 @@ class LoginVC: UIViewController {
                 print("Error signing in:", error)
             } else {
                 
-                self?.performSegue(withIdentifier: "loginToProducts", sender: nil)
+                self?.performSegue(withIdentifier: "launchToCategories", sender: nil)
             }
         }
         
@@ -69,7 +69,7 @@ class LoginVC: UIViewController {
     }
     func playLoginAnimation() {
            
-            if let animation = LottieAnimation.named("Shopcy_Login") {
+            if let animation = LottieAnimation.named("AroundMe_Animation") {
                 LoginLAV.animation = animation
                 LoginLAV.loopMode = .loop // Play animation in loop mode
                 LoginLAV.play()

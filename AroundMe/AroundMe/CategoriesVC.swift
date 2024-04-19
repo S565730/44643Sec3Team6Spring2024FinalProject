@@ -33,6 +33,16 @@ class CategoriesVC: UIViewController {
         self.searchBar.delegate = self
     }
     
+    @IBAction func Logout(_ sender: Any) {
+        let alert = UIAlertController(title: "Logout", message: "Would you like to logout?", preferredStyle: .alert)
+               alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+               alert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { _ in
+                 
+                   
+                   self.performSegue(withIdentifier: "CategoriesToLogin", sender: self)
+               }))
+               present(alert, animated: true, completion: nil)
+    }
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -74,6 +84,7 @@ extension CategoriesVC: UITableViewDelegate, UITableViewDataSource {
         selectedCategory = self.filteredCategories[indexPath.row]
         self.performSegue(withIdentifier: "categoriesToMaps", sender: self)
     }
+    
 }
 
 extension CategoriesVC: UISearchBarDelegate {
