@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDlJnj5yq22y2kRP5-LUUF-kklompwR5V0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>587378314987</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.nwdcsmissouri.spring24.cs44643.sec03</string>
+	<key>PROJECT_ID</key>
+	<string>s565730shopcyapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>s565730shopcyapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:587378314987:ios:13754f98b981446deb78ae</string>
+</dict>
+</plist>
