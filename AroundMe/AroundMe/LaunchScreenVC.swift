@@ -7,13 +7,24 @@
 
 import UIKit
 import AudioToolbox
+import CoreLocation
 
 class LaunchScreenVC: UIViewController {
 
+    private let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         imgView.layer.cornerRadius = 12
         imgView.clipsToBounds = true
+//        self.locationManager.requestAlwaysAuthorization()
+//        self.locationManager.startUpdatingLocation()
+//        
+//        if CLLocationManager.authorizationStatus() == .notDetermined {
+//            
+//            self.locationManager.requestWhenInUseAuthorization()
+//            print("trdt")
+//        }
         
         // Do any additional setup after loading the view.
         AudioServicesPlaySystemSound(1332)

@@ -25,16 +25,21 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+       
+            self.locationManager.delegate = self
+            self.locationManager.requestWhenInUseAuthorization()
+            self.locationManager.startUpdatingLocation()
+        
         // Do any additional setup after loading the view.
         
-        locationManager.delegate = self
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startUpdatingLocation()
+        
         
         mapView.delegate = self
         mapView.showsUserLocation = true
         
     }
+    
+    
 
     
     
@@ -74,6 +79,21 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: any Error) {
          print("Error: \(error.localizedDescription)")
+    }
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus){
+        switch CLLocationManager.authorizationStatus() {
+            case .authorizedAlways, .authorizedWhenInUse:
+                // do what is needed if you have access to location
+            self.locationManager.requestWhenInUseAuthorization()
+            case .denied, .restricted:
+                // do what is needed if you have no access to location
+            self.locationManager.requestWhenInUseAuthorization()
+            case .notDetermined:
+                self.locationManager.requestWhenInUseAuthorization()
+            @unknown default:
+                // raise an error - This case should never be called
+            self.locationManager.requestWhenInUseAuthorization()
+            }
     }
     
     func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
