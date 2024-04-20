@@ -27,7 +27,7 @@ class LaunchScreenVC: UIViewController {
 //        }
         
         // Do any additional setup after loading the view.
-        AudioServicesPlaySystemSound(1332)
+        AudioServicesPlaySystemSound(1106)
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             
             self.performSegue(withIdentifier: "SplashToLogin", sender: self)

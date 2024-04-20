@@ -33,15 +33,13 @@ class CategoriesVC: UIViewController {
         self.searchBar.delegate = self
     }
     
-    @IBAction func Logout(_ sender: Any) {
-        let alert = UIAlertController(title: "Logout", message: "Would you like to logout?", preferredStyle: .alert)
-               alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-               alert.addAction(UIAlertAction(title: "Confirm", style: .default, handler: { _ in
+    @IBAction func Profile(_ sender: Any) {
+    
+    
                  
                    
-                   self.performSegue(withIdentifier: "CategoriesToLogin", sender: self)
-               }))
-               present(alert, animated: true, completion: nil)
+                   self.performSegue(withIdentifier: "Profile", sender: self)
+             
     }
     // MARK: - Navigation
 
